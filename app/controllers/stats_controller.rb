@@ -559,7 +559,7 @@ class StatsController < ApplicationController
     @tags_min = cloud.min
     @tags_divisor = cloud.divisor
 
-    @tags_for_cloud_90days = cloud.ninety_days
+    @tags_for_cloud_90days = cloud.tags_90days
     @tags_min_90days = cloud.min_90days
     @tags_divisor_90days = cloud.divisor_90days
   end
